@@ -85,7 +85,26 @@ typeEffect();
 
 // dark theme 
 
-const toggle = document.getElementById("theme-toggle");
-toggle.onclick = () => {
-  document.body.classList.toggle("dark-theme");
-};
+const change=document.querySelector("#change-theme");
+const body=document.querySelector("body");
+let boolean=true;
+change.addEventListener("click",function(){
+   
+    if(boolean){
+      boolean=false
+        change.innerHTML="🌞";
+        document.documentElement.style.setProperty('--background', '#F5F7FA');
+        document.documentElement.style.setProperty('--card-background', '#FFFFFF');
+        document.documentElement.style.setProperty('--text-primary', '#1A1F2C');
+        document.documentElement.style.setProperty('--text-secondary', '#6B7280');
+        document.documentElement.style.setProperty('--accent-color', '#FEF7CD');
+    }else{
+      boolean=true
+        change.innerHTML="🌜";
+        document.documentElement.style.setProperty('--background', '#121417');
+        document.documentElement.style.setProperty('--card-background', '#1E2228');
+        document.documentElement.style.setProperty('--text-primary', '#E4E4E4');
+        document.documentElement.style.setProperty('--text-secondary', '#A0A4AB');
+        document.documentElement.style.setProperty('--accent-color', '#4F9AFF');
+    }
+})

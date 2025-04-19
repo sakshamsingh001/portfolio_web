@@ -15,5 +15,6 @@
 svg
 {       width: 3vw;
     height: 3vh;
-    background-color: #3C3D37;
+    /* background-color: #3C3D37; */
+    mix-blend-mode: multiply;
 }

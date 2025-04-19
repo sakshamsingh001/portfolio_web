@@ -35,9 +35,23 @@ font-size: 20px;
 {
     display: flex;
     justify-content: space-around;
+    
 }
 #c2
 {
     display: flex;
     justify-content: space-around;
 }
+             #left-1 
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center; 
+                justify-content: center; 
+                text-align: center;
+                padding: 2rem;
+              }
+             
+
+
+

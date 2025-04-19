@@ -34,3 +34,10 @@ body{
       }
       
 
+.resume-btn
+{
+    text-decoration: none;
+    color: var(--text-primary);
+    background-color: var(--accent-color);  
+    border-radius: 10%;
+}
