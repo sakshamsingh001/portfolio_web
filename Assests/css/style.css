@@ -1,0 +1,36 @@
+@import url(resumesummary.css);
+@import url(projectsection.css);
+@import url(contactsection.css);
+@import url(mentorsection.css);
+@import url(footer.css);
+@import url(navbar.css);
+@import url(aboutme.css);
+@import url(skillsection.css);
+
+:root {
+    --background: #1A1F2C;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8E9196;
+    --accent-color: #9b87f5;
+    --card-background: #2A2F3D;
+}
+
+body{
+    background-color:var(--background);
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--text-primary); 
+
+}
+    /* div{
+        border: 1px solid wheat;
+    } */
+
+
+    .dark-theme {
+        --bg-color: #111;
+        --text-color: #fff;
+      }
+      
+

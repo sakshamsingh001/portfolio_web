@@ -1,0 +1,91 @@
+/* Mentor Speak Section */
+.mentor-speak {
+    padding: 6rem 0;
+    background-color: var(--background);
+    position: relative;
+}
+
+.mentor-speak .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.mentor-speak .label {
+    display: inline-block;
+    background-color: #FEF7CD;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.mentor-speak h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--text-primary);
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    flex: 1;
+}
+
+.quote {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.mentor-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.mentor-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentor-info {
+    text-align: left;
+}
+
+.mentor-info h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.mentor-info p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+
+.image img
+{
+    width: 100vw;
+    height: 20vh;
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
+}
+.image button 
+{
+background-color: #FEF7CD;
+border-radius:20% ;
+}

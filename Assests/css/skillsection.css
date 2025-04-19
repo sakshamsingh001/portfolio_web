@@ -1,0 +1,19 @@
+.allskills
+{
+    display: flex;
+    justify-content: space-around;
+}
+.skills
+{
+    width: 20%;
+    color:var(--text-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+svg
+{       width: 3vw;
+    height: 3vh;
+    background-color: #3C3D37;
+}

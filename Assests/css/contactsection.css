@@ -1,0 +1,36 @@
+/* Contact Section */
+.contact-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: var(--card-background);
+    color: var(--text-primary);
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: var(--accent-color);
+    color: var(--text-primary);
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #697565;
+}
