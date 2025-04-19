@@ -9,12 +9,12 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("testimonial");
   if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length} ;
+  if (n < 1) {slideIndex = x.length } ;
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
-  setTimeout(showDivs,1000);
+
 }
 var slideIndex = 0;
 carousel();  
@@ -75,9 +75,9 @@ typeEffect();
 
 // Scroll to top button
 const topBtn = document.getElementById("topBtn");
-window.onscroll = () => {
-  topBtn.style.display = window.scrollY > 300 ? "block" : "none";
-};
+// window.onscroll = () => {
+//   // topBtn.style.display = window.scrollY > 300 ? "block" : "none";
+// };
 
 topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
