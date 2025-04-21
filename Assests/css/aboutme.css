@@ -17,6 +17,7 @@ font-size: 20px;
 {
     margin-right:5vw ;
     height: 70%;
+   
 }
 .head1
 {
@@ -50,6 +51,12 @@ font-size: 20px;
                 justify-content: center; 
                 text-align: center;
                 padding: 2rem;
+              }
+              #right img
+              {
+                width: 40vh;
+                height: 40vh;
+                border-radius: 50%;
               }
              
 

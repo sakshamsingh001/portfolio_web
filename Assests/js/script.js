@@ -108,3 +108,16 @@ change.addEventListener("click",function(){
         document.documentElement.style.setProperty('--accent-color', '#4F9AFF');
     }
 })
+let card=document.querySelectorAll(".project-card")
+console.log(card)
+card.forEach((e)=>{   
+    e.addEventListener("mouseover",function(){
+        e.style.transform="scale(1.05)"
+
+    })
+    e.addEventListener("mouseout",function(){
+        e.style.transform="scale(1)"
+    })
+}
+) 
+
