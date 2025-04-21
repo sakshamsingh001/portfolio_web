@@ -2,6 +2,7 @@
 #container{
     display: flex;
 justify-content: space-between;
+
 align-items: center;
 background-color: var(--background);
  height: 50vh;
@@ -9,14 +10,14 @@ background-color: var(--background);
 #left
 {
     margin-left:5vw ;
-    height: 70%;
+    height: 60%;
 font-stretch: expanded;
 font-size: 20px;
 }
 #right
 {
     margin-right:5vw ;
-    height: 70%;
+    height: 60%;
    
 }
 .head1
