@@ -5,7 +5,17 @@ justify-content: space-between;
 
 align-items: center;
 background-color: var(--background);
- height: 50vh;
+ height: 50vh;  
+
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 1rem;
+
+}
+.based-in
+{
+display: flex;
+align-items: center;
 }
 #left
 {
@@ -16,6 +26,7 @@ font-size: 20px;
 }
 #right
 {
+    padding-top: 10vh;
     margin-right:5vw ;
     height: 60%;
    
@@ -28,10 +39,13 @@ font-size: 20px;
     align-items: center;
     grid-area: 1px;
 }
-.head1 h3
+.head1 h2
 {
-    border-radius: 10%;
-    background-color: var(--accent-color);   ;
+
+    border-radius: 5%;
+    /* background-color: var(--accent-color);    */
+    color: var(--accent-color);
+    text-shadow: 2px 2px maroon;
 }
 #c1
 {
@@ -55,8 +69,8 @@ font-size: 20px;
               }
               #right img
               {
-                width: 40vh;
-                height: 40vh;
+                width: 100%;
+                height: 100%;
                 border-radius: 50%;
               }
              

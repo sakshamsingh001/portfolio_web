@@ -13,7 +13,10 @@
 <meta property="og:description" content="Web Developer & Programmer Portfolio Website.">
 <meta property="og:image" content="https://sakshamsingh001.github.io/Portfolio_Website/assets/images/preview.jpg">
 <meta property="og:url" content="https://sakshamsingh001.github.io/Portfolio_Website/">
+<style>
+ 
 
+</style>
 
 </head>
 <body>
@@ -21,19 +24,20 @@
 
     <!-- NAVBAR AND LOGO -->
     <header>
-       <div id="navbar">
+       <div class="navbar" >
         <div id="logo">
             <h3>S.</h3>
           
         </div>
-        <div id="options">
-         
-                <a href="#container">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#resume">Resume</a>
-                <a href="#projects">Projects</a>
-                <a href="#testimonial">Testimonials</a>
-                <a href="#contact">Contact</a>
+        <div  id="options" class="nav-links">
+            
+                <a class="links" href="#container">About</a>
+                <a class="links" href="#skills">Skills</a>
+                <a class="links" href="#resume">Resume</a>
+                <a class="links" href="#projects">Projects</a>
+                <a class="links" href="#contact">Contact</a>    
+                <a class="links" href="#testimonial">Testimonials</a>
+                
                 <button id="change-theme">🌓</button>  
            
         </div>
@@ -44,25 +48,26 @@
     <!-- ABOUT ME -->
     <main>
        
-        <div id="container">
+        <section id="container">
             <div id="left">
                 
                 <h2>Hi, I'm Saksham Singh</h2>
                
-                <h1>DEVELOPER</h1>
-                <div id="typewriter"></div>
-                <P>Baesd in Delhi,Inida</P>
+                <h3 id="typewriter" >DEVELOPER</h3>
+                <div ></div>
+
+                <P class="based-in">Baesd in Delhi,Inida</P>
                 <button id="works">veiw my works</button>
-                <button id="Contact">Contact Me</button>
+                <button id="Contactme">Contact Me</button>
             </div>
             <div id="right">
                 <img src="Assests/images/WhatsApp Image 2024-10-08 at 15.28.57_249c1385.jpg" alt="Sam" id="profile-img">
             </div>
-        </div>
+        </section>
         <div id="know-more">
             <div class="head1">
-                <h3>About ME</h3>
-                <h2>Know Me More</h2>
+                <h2>About ME</h2>
+                <h3>Know Me More</h3>
                  
             </div>
          <div id="c1"> 
@@ -73,8 +78,7 @@
                 </p>
             </div>
             <div id="right-1">
-               
-              
+                  
             </div>  
         </div>
         <div id="c2">
@@ -95,9 +99,10 @@
 <h3>Delhi,India</h3>
             </div>
         </div>
-        <div class="head1" id="skills">
-            <h3>My Skills</h3>
-            <h2>How can i help your project</h2>    
+        <section id="skills">
+        <div class="head1" >
+            <h2>My Skills</h2>
+            <h3>How can i help your project</h3>    
         </div>
         <div class="allskills">
             <div class="skills">
@@ -200,10 +205,11 @@
 </p>
             </div>
         </div>
+    </section>
 
         <!-- RESUME SUMMARY -->
          
-        <div class="container" id="resume">
+        <section class="container" id="resume">
             <div class="header">
               <span class="badge">Resume</span>
               <h1>A Summary Of My Resume</h1>
@@ -259,10 +265,13 @@
                 </div>
                     
               </div>
-              <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="saksham-singh9537" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/saksham-singh9537?trk=profile-badge"></a></div>
+
+              <div id="for-dark" class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="saksham-singh9537" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/saksham-singh9537?trk=profile-badge"></a></div>
+<div id="for-light"  class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="saksham-singh9537" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/saksham-singh9537?trk=profile-badge"></a></div>
+             
               
             </div>
-          </div>
+          </section>
           <div class="resume"><a href="Assests/resume.pdf" download class="resume-btn">Download Resume</a></div>
           
           
@@ -307,7 +316,7 @@
                     <span>Firebase</span>
                 </div>
                 <!-- navigation purpouse     -->
-                <div id="contact"></div>
+                
                 <!-- navigation  purpouse -->
                 <div class="project-links">
                     <a href="#">GitHub</a>
@@ -320,7 +329,7 @@
 <!-- Contact Section -->
 
 
-<section  class="contact">
+<section id="contact" class="contact">
     <h2>Get In Touch</h2>
     <div class="contact-container">
         <div class="contact-info">

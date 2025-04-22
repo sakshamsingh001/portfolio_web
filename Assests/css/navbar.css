@@ -1,13 +1,14 @@
 /* NAVBAR */
-#navbar
-{background-color: var(--background);
+.navbar
+{
+    background-color: var(--background);
     display: flex;
     justify-content: space-between;
     height: 12vh;
     position: fixed;
-    z-index: 1000;
+    z-index: 1;
     width: 100%;
-    
+    opacity: 0.6;
    
 }
 

@@ -6,7 +6,13 @@
 @import url(navbar.css);
 @import url(aboutme.css);
 @import url(skillsection.css);
+@import url(testing.css);
 
+
+    
+html {
+    scroll-behavior: smooth;
+  }
 :root {
     --background: #1A1F2C;
     --text-primary: #FFFFFF;
@@ -19,8 +25,13 @@ body{
     background-color:var(--background);
     border: 0px;
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     color: var(--text-primary); 
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    /* color: #333; */
 
 }
     /* div{
@@ -48,4 +59,12 @@ body{
 
     display: flex;
     justify-content: center;
+}
+#for-light
+{
+display: none;
+}
+section
+{
+    padding: 4rem 0 ;
 }

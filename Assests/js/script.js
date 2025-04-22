@@ -41,7 +41,7 @@ function carousel() {
 //         element.innerHTML =arr[i];
 //     }, 2000*i);
 // }
-const texts = ["Web Developer", "Programmer", "Tech Enthusiast"];
+const texts = ["Web Developer", "Programmer", "Tech Enthusiast","DEVELOPER"];
 let i = 0, j = 0;
 let currentText = "";
 let isDeleting = false;
@@ -98,6 +98,10 @@ change.addEventListener("click",function(){
         document.documentElement.style.setProperty('--text-primary', '#1A1F2C');
         document.documentElement.style.setProperty('--text-secondary', '#6B7280');
         document.documentElement.style.setProperty('--accent-color', '#FEF7CD');
+        document.getElementById("for-light").style.setProperty('display','block')
+        document.getElementById("for-dark").style.setProperty('display','none')
+
+
     }else{
       boolean=true
         change.innerHTML="🌜";
@@ -106,6 +110,8 @@ change.addEventListener("click",function(){
         document.documentElement.style.setProperty('--text-primary', '#E4E4E4');
         document.documentElement.style.setProperty('--text-secondary', '#A0A4AB');
         document.documentElement.style.setProperty('--accent-color', '#4F9AFF');
+        document.getElementById("for-light").style.setProperty('display','none')
+        document.getElementById("for-dark").style.setProperty('display','block')
     }
 })
 let card=document.querySelectorAll(".project-card")
@@ -120,4 +126,65 @@ card.forEach((e)=>{
     })
 }
 ) 
+// ABOUT ME BUTTONS 
+const project= document.querySelector("#projects")
+
+document.getElementById("works").addEventListener("click",()=>
+{ console.log("baehjaej") 
+project.scrollIntoView({behavior:"smooth" })
+
+})
+const contact= document.querySelector("#contact")
+
+document.getElementById("Contactme").addEventListener("click",()=>
+{
+  console.log("baehjaej") 
+  contact.scrollIntoView({behavior:"smooth"})
+})
+
+// ONGOING 
+// window.addEventListener('scroll',()=>
+// {
+//   const navbar = document.querySelector(".navbar")
+//   if (window.scrollY > 50) {
+
+// navbar.classList.add('nav-scrolled')
+
+
+
+//   } else {
+//     navbar.classList.remove('nav-scrolled');
+    
+//   }
+
+// })
+
+
+
+const section = document.querySelectorAll("section");
+const navLink = document.querySelectorAll(".nav-links a");
+console.log(navLink)
+let current = "";
+window.addEventListener("scroll",()=>
+{
+  
+  section.forEach((sec) => {
+    const sectionTop = sec.offsetTop;
+   
+    if(pageYOffset >= sectionTop-70)
+    {
+      current = sec.getAttribute("id");
+      console.log(current)
+    }
+});
+navLink.forEach((link) => {
+  link.classList.remove("active");
+
+
+  if(link.getAttribute("href") === `#${current}`)
+  {
+    link.classList.add("active");
+  } 
+});
+});
 
