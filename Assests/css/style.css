@@ -28,7 +28,7 @@ body{
     padding: 0px;
     box-sizing: border-box;
     color: var(--text-primary); 
-    font-family: 'Inter', sans-serif;
+    font-family: 'poppins', sans-serif;
     line-height: 1.6;
     font-size: 16px;
     /* color: #333; */
@@ -66,5 +66,18 @@ display: none;
 }
 section
 {
-    padding: 4rem 0 ;
+    padding: 4rem 2rem ;
 }
+
+h1, h2, h3 {
+    color: var(--text-primary);
+  }
+  
+  p {
+    color: var(--text-secondary);
+  }
+  a:hover, button:hover {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
