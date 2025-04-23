@@ -130,7 +130,7 @@ card.forEach((e)=>{
 const project= document.querySelector("#projects")
 
 document.getElementById("works").addEventListener("click",()=>
-{ console.log("baehjaej") 
+{  
 project.scrollIntoView({behavior:"smooth" })
 
 })
@@ -138,7 +138,7 @@ const contact= document.querySelector("#contact")
 
 document.getElementById("Contactme").addEventListener("click",()=>
 {
-  console.log("baehjaej") 
+
   contact.scrollIntoView({behavior:"smooth"})
 })
 

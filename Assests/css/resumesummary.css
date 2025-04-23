@@ -37,3 +37,27 @@
     align-items: center;
 }
 
+.resume-btn
+{
+    text-decoration: none;
+    color: var(--text-primary);
+    /* color: var(--text-primary); */
+    background-color: var(--accent-color);  
+    /* border-radius: 10%; */
+    border: 2px solid var(--text-primary);
+    font-size: 1rem;
+width: 10vw;
+text-align: center;
+   
+}
+.resume
+{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+#Contactme span
+{
+    text-decoration: underline;
+}

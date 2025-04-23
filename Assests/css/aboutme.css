@@ -4,12 +4,14 @@
 justify-content: space-between;
 
 align-items: center;
-background-color: var(--background);
+background-color: var(--card-background);
  height: 50vh;  
 
- max-width: 1200px;
+ /* max-width: 1200px; */
+ width: 100%;
  margin: 0 auto;
- padding: 0 1rem;
+ /* padding: 0 1rem; */
+ 
 
 }
 .based-in
@@ -19,7 +21,7 @@ align-items: center;
 }
 #left
 {
-    margin-left:5vw ;
+    margin-left:3vw ;
     height: 60%;
 font-stretch: expanded;
 font-size: 20px;
@@ -27,7 +29,7 @@ font-size: 20px;
 #right
 {
     padding-top: 10vh;
-    margin-right:5vw ;
+    margin-right:6vw ;
     height: 60%;
    
    
@@ -87,11 +89,55 @@ font-size: 20px;
     background-color: var(--accent-color);
     color: var(--text-primary);
 
+
+    text-decoration: none;
+    color: var(--text-primary);
+    /* color: var(--text-primary); */
+    background-color: var(--accent-color);  
+    /* border-radius: 10%; */
+    border: 1px solid var(--text-primary);
+    font-size: 0.7rem;
+width: 10vw;
+height: 4vh;
+text-align: center;
+
 }
 .btn
 {
     color:var(--text-secondary);
-    background-color: var(--background);
+    background-color: var(--card-background);
     border: 0px;
     
+    
+}
+/* bouncing  part */
+#downwards-arrow
+{
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--background);
+  border: 0px;
+  color: var(--text-secondary);
+  animation: bounce 3s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0)  ;
+  }
+  40% {
+    transform: translateY(20px) ;
+  }
+  60% {
+    transform: translateY(10px) ;
+  }
+}
+#left-1 span
+{
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    font-style: sans-serif;
 }
