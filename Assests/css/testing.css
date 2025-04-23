@@ -26,3 +26,12 @@
 } */
 /* Remove bottom margin from Skills */
 
+#downwards-arrow
+{
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--background);
+  border: 0px;
+  color: var(--text-secondary);
+}

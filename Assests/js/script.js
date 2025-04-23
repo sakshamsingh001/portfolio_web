@@ -187,4 +187,9 @@ navLink.forEach((link) => {
   } 
 });
 });
-
+ 
+let arrow=document.querySelector("#downwards-arrow")
+arrow.addEventListener("click",()=>
+{
+  document.querySelector("#know-more").scrollIntoView({behavior: "smooth"});
+})
