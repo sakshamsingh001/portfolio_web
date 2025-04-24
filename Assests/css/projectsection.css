@@ -21,7 +21,9 @@
     margin: 1rem 0;
     padding: 0 1rem;
 }
-
+.project-card p{
+    margin-left: 1rem;
+}
 .project-tags {
     display: flex;
     gap: 0.5rem;
@@ -44,4 +46,12 @@
 .project-links a {
     color: var(--text-primary);
     text-decoration: none;
+}
+#projects
+{
+    margin-top: 100px;
+}
+#projects h2
+{
+    text-align: center;
 }
